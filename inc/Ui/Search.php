@@ -496,15 +496,11 @@ class Search extends Ui
      *
      * @return string pagename constructed from the parsed query
      */
-    public function createPagenameFromQuery($parsedQuery)
+    protected function createPagenameFromQuery($parsedQuery)
     {
-        $cleanedQuery = cleanID($parsedQuery['query']);
-        if ($cleanedQuery === $parsedQuery['query']) {
-            return ':' . $cleanedQuery;
-        }
         $pagename = '';
         if (!empty($parsedQuery['ns'])) {
-            $pagename .= ':' . cleanID($parsedQuery['ns'][0]);
+            $pagename .= cleanID($parsedQuery['ns'][0]);
         }
         $pagename .= ':' . cleanID(implode(' ' , $parsedQuery['highlight']));
         return $pagename;

@@ -237,16 +237,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.11",
+            "version": "2.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "7053f06f91b3de78e143d430e55a8f7889efc08b"
+                "reference": "d305b780829ea4252ed9400b3f5937c2c99b51d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/7053f06f91b3de78e143d430e55a8f7889efc08b",
-                "reference": "7053f06f91b3de78e143d430e55a8f7889efc08b",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d305b780829ea4252ed9400b3f5937c2c99b51d4",
+                "reference": "d305b780829ea4252ed9400b3f5937c2c99b51d4",
                 "shasum": ""
             },
             "require": {
@@ -325,7 +325,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2018-04-15T16:55:05+00:00"
+            "time": "2018-02-19T04:29:13+00:00"
         },
         {
             "name": "simplepie/simplepie",
@@ -389,26 +389,23 @@
         },
         {
             "name": "splitbrain/php-archive",
-            "version": "1.0.10",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/splitbrain/php-archive.git",
-                "reference": "a46f3aaeb9f123fdb7db4e192b0600feebf7f773"
+                "reference": "2a63b8cf0bfc7fdc0d987c9b7348e639e55cce76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/splitbrain/php-archive/zipball/a46f3aaeb9f123fdb7db4e192b0600feebf7f773",
-                "reference": "a46f3aaeb9f123fdb7db4e192b0600feebf7f773",
+                "url": "https://api.github.com/repos/splitbrain/php-archive/zipball/2a63b8cf0bfc7fdc0d987c9b7348e639e55cce76",
+                "reference": "2a63b8cf0bfc7fdc0d987c9b7348e639e55cce76",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4"
+                "php": ">=5.3.0"
             },
             "require-dev": {
-                "ext-bz2": "*",
-                "ext-zip": "*",
-                "mikey179/vfsstream": "^1.6",
-                "phpunit/phpunit": "^4.8"
+                "phpunit/phpunit": "4.5.*"
             },
             "suggest": {
                 "ext-iconv": "Used for proper filename encode handling",
@@ -439,7 +436,7 @@
                 "unzip",
                 "zip"
             ],
-            "time": "2018-05-01T08:03:56+00:00"
+            "time": "2017-06-11T06:11:38+00:00"
         },
         {
             "name": "splitbrain/php-cli",

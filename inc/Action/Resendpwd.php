@@ -37,11 +37,6 @@ class Resendpwd extends AbstractAclAction {
         }
     }
 
-    /** @inheritdoc */
-    public function tplContent() {
-        html_resendpwd();
-    }
-
     /**
      * Send a  new password
      *

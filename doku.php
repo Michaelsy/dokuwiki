@@ -13,7 +13,7 @@ $updateVersion = "50";
 
 // let people know if they are running an unsupported version of PHP
 define('DOKU_MIN_PHP', '5.6');
-        // IMPORTANT: If DOKU_MIN_PHP changed you have to update INSTALL.PHP and COMPOSER.JSON too. 
+        // If DOKU_MIN_PHP changes you have to update INSTALL.PHP and COMPOSER.JSON too. 
 
 if (version_compare(PHP_VERSION, DOKU_MIN_PHP, '<')) {
   die('WEB SERVER SETUP ERROR: Your PHP version '.PHP_VERSION.' which is '. 
